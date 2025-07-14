@@ -379,7 +379,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* font-family: "Nothing You Could Do"; */
 }
 
 .modal-info .date {
@@ -404,54 +403,13 @@
   color: var(--secondary-clr);
 }
 
-/* .modal-details {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.modal-details h1 {
-  font-size: 36px;
-} */
-/* .modal-info-grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-}
-.modal-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  background: var(--primary-lighter);
-  border-radius: 10px;
-  padding: 10px;
-  text-transform: capitalize;
-}
-.modal-info_title {
-  margin-block-end: 10px;
-  font-size: 17px;
-  font-weight: 500;
-  color: var(--secondary-clr);
-}
-.modal-info span {
-  font-size: 15px;
-} */
+
 /* Grid styling */
 .modal-grid {
   width: 100%;
   padding-block: 20px;
 }
 
-/* .grid-wrapper { */
-/* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: auto;
-  grid-auto-flow: row dense; */
-/* columns: 4 300px;
-  gap: 15px;
-  padding: 15px;
-} */
 .grid-wrapper a {
   display: inline-block;
   width: 100%;
