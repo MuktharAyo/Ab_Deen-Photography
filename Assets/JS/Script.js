@@ -1,20 +1,81 @@
 // Additional JavaScript to remove preloader from DOM after animation
-// document.addEventListener("DOMContentLoaded", function () {
-//   const preloader = document.querySelector(".preloader");
+document.addEventListener("DOMContentLoaded", function () {
+  const preloader = document.querySelector(".preloader");
 
-//   setTimeout(() => {
-//     preloader.style.display = "none";
-//   }, 5000); // Matches total animation time
-// });
+  setTimeout(() => {
+    preloader.style.display = "none";
+  }, 5000); // Matches total animation time
+});
 
 // Nav-toggle
+// document.addEventListener("DOMContentLoaded", () => {
+//   const $ = (id) => document.getElementById(id);
+//   const navbar = $("navbar"),
+//     navMenu = $("navMenu"),
+//     navLogo = $("navLogo"),
+//     toggleBtn = $("mobileMenuToggle");
+//   const isOpen = () => navMenu.classList.contains("active");
+//   const openMenu = () => {
+//     navMenu.classList.add("active");
+//     navLogo.classList.add("active");
+//     toggleBtn.classList.add("active");
+//     document.body.style.overflow = "hidden";
+//   };
+//   const closeMenu = () => {
+//     navMenu.classList.remove("active");
+//     navLogo.classList.remove("active");
+//     toggleBtn.classList.remove("active");
+//     document.body.style.overflow = "";
+//   };
+//   const scrollToHash = (hash) => {
+//     const el = document.querySelector(hash);
+//     if (!el) return;
+//     el.scrollIntoView({ behavior: "smooth" });
+//     el.tabIndex = -1;
+//     el.focus({ preventScroll: true });
+//     history.pushState(null, "", hash);
+//   };
+//   toggleBtn.addEventListener("click", () => {
+//     isOpen() ? closeMenu() : openMenu();
+//   });
+//   navMenu.addEventListener("click", (e) => {
+//     const link = e.target.closest("a");
+//     if (!link) return;
+//     const href = link.getAttribute("href");
+//     if (href?.startsWith("#") && document.querySelector(href)) {
+//       e.preventDefault();
+//       // close menu, then scroll after transition ends
+//       closeMenu();
+//       const dur =
+//         parseFloat(getComputedStyle(navMenu).transitionDuration) * 1000;
+//       setTimeout(() => scrollToHash(href), dur);
+//     } else if (isOpen()) {
+//       // non-anchor or external link: just close menu so default navigation proceeds
+//       closeMenu();
+//     }
+//   });
+//   const onScroll = () =>
+//     navbar.classList.toggle("scrolled", window.scrollY > 20);
+//   window.addEventListener("scroll", onScroll);
+//   onScroll();
+// });
+
 document.addEventListener("DOMContentLoaded", () => {
   const $ = (id) => document.getElementById(id);
-  const navbar = $("navbar"),
-    navMenu = $("navMenu"),
-    navLogo = $("navLogo"),
-    toggleBtn = $("mobileMenuToggle");
-  const isOpen = () => navMenu.classList.contains("active");
+
+  // Nav elements
+  const navbar = $("navbar");
+  const navMenu = $("navMenu");
+  const navLogo = $("navLogo");
+  const toggleBtn = $("mobileMenuToggle");
+
+  // Theme elements
+  const body = document.body;
+  const themeToggle = $("themeToggle");
+  const themeIcon = themeToggle.querySelector("i");
+
+  // Nav helpers
+  const isMenuOpen = () => navMenu.classList.contains("active");
   const openMenu = () => {
     navMenu.classList.add("active");
     navLogo.classList.add("active");
@@ -35,29 +96,51 @@ document.addEventListener("DOMContentLoaded", () => {
     el.focus({ preventScroll: true });
     history.pushState(null, "", hash);
   };
-  toggleBtn.addEventListener("click", () => {
-    isOpen() ? closeMenu() : openMenu();
-  });
+
+  // Theme helpers
+  const applyTheme = (theme) => {
+    if (theme === "light") {
+      body.classList.add("light-theme");
+      themeIcon.className = "ri-sun-line";
+    } else {
+      body.classList.remove("light-theme");
+      themeIcon.className = "ri-moon-line";
+    }
+    localStorage.setItem("theme", theme);
+  };
+
+  // Initialize theme from storage
+  const savedTheme = localStorage.getItem("theme") || "dark";
+  applyTheme(savedTheme);
+
+  // Event listeners
+  toggleBtn.addEventListener("click", () =>
+    isMenuOpen() ? closeMenu() : openMenu()
+  );
+
   navMenu.addEventListener("click", (e) => {
     const link = e.target.closest("a");
     if (!link) return;
     const href = link.getAttribute("href");
+
     if (href?.startsWith("#") && document.querySelector(href)) {
       e.preventDefault();
-      // close menu, then scroll after transition ends
       closeMenu();
       const dur =
         parseFloat(getComputedStyle(navMenu).transitionDuration) * 1000;
       setTimeout(() => scrollToHash(href), dur);
-    } else if (isOpen()) {
-      // non-anchor or external link: just close menu so default navigation proceeds
+    } else if (isMenuOpen()) {
       closeMenu();
     }
   });
-  const onScroll = () =>
-    navbar.classList.toggle("scrolled", window.scrollY > 20);
-  window.addEventListener("scroll", onScroll);
-  onScroll();
+
+  window.addEventListener("scroll", () =>
+    navbar.classList.toggle("scrolled", window.scrollY > 20)
+  );
+
+  themeToggle.addEventListener("click", () =>
+    applyTheme(body.classList.contains("light-theme") ? "dark" : "light")
+  );
 });
 
 // Scroll to reveal
