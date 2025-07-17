@@ -49,11 +49,11 @@ html {
 
   /* Light Theme Colors (Complementary) */
   --light-primary: rgb(234, 224, 200);
-  --light-primary-light: rgb(234, 224, 200);
+  --light-primary-light: rgb(245, 234, 210);
   --light-primary-lighter: rgb(220, 220, 220);
   --light-primary-clr: rgb(255, 255, 255, 0.5);
   --light-secondary: rgb(18, 18, 18);
-  --light-secondary-clr: rgba(18, 18, 18, 0.7);
+  --light-secondary-clr: rgba(18, 18, 18, 0.8);
   --light-vintage-gold: rgb(184, 115, 51);
 
   --light-border-fade: rgba(0, 0, 0, 0.4);

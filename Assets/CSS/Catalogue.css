@@ -1,4 +1,3 @@
-
 /* .GALLERY-SECTION STYLES */
 #catalog {
   background: var(--current-primary);
@@ -416,16 +415,23 @@
 
 /* Fancybox */
 .fancybox__backdrop {
-  background: var(--primary) !important;
+  background: var(--current-primary) !important;
 }
 
 .f-button {
   background: none !important;
+  color: var(--current-secondary) !important;
+}
+
+.f-button:hover {
+  color: var(--current-secondary) !important;
 }
 
 .fancybox__toolbar,
 .fancybox__footer {
-  background: var(--primary-light) !important;
+  text-shadow: none !important;
+  color: var(--current-secondary) !important;
+  background: var(--current-primary-light) !important;
 }
 
 .fancybox-custom-arrow {
@@ -446,7 +452,7 @@
 
 /* @media (hover: hover) {
   .f-button:hover:not([disabled]) {
-    color: blue;
+    color: red !important;
     background: var(--vintage-gold);
   }
 
@@ -458,12 +464,12 @@
 
 .fancybox-custom-arrow i {
   font-size: 24px;
-  color: var(--secondary);
+  color: var(--current-secondary);
 }
 
 .fancybox__caption {
   text-transform: capitalize;
   text-align: center;
   padding: 15px;
-  color: var(--secondary);
+  color: var(--current-secondary);
 }
