@@ -39,7 +39,7 @@ html {
   --primary-clr: rgba(0, 0, 0, 0.5);
   --secondary: rgb(234, 224, 200);
   --secondary-clr: rgb(255, 255, 255);
-  --hyper-red: rgb(184, 115, 51);
+  --vintage-gold: rgb(184, 115, 51);
 
   --border-fade: rgb(255, 255, 255, 0.4);
   --gradient: linear-gradient(var(--primary) 25%, rgba(0, 0, 0, 0.6) 80%);
@@ -54,7 +54,7 @@ html {
   --light-primary-clr: rgb(255, 255, 255, 0.5);
   --light-secondary: rgb(18, 18, 18);
   --light-secondary-clr: rgba(18, 18, 18, 0.7);
-  --light-hyper-red: rgb(184, 115, 51);
+  --light-vintage-gold: rgb(184, 115, 51);
 
   --light-border-fade: rgba(0, 0, 0, 0.4);
   --light-gradient: linear-gradient(var(--secondary) 25%,
@@ -71,7 +71,7 @@ html {
   --current-primary-clr: var(--primary-clr);
   --current-secondary: var(--secondary);
   --current-secondary-clr: var(--secondary-clr);
-  --current-hyper-red: var(--hyper-red);
+  --current-vintage-gold: var(--vintage-gold);
   --current-border-fade: var(--border-fade);
   --current-gradient: var(--gradient);
   --current-overlay: var(--shadow-dark);
@@ -92,7 +92,7 @@ body.light-theme {
   --current-primary-clr: var(--light-primary-clr);
   --current-secondary: var(--light-secondary);
   --current-secondary-clr: var(--light-secondary-clr);
-  --current-hyper-red: var(--light-hyper-red);
+  --current-vintage-gold: var(--light-vintage-gold);
   --current-border-fade: var(--light-border-fade);
   --current-gradient: var(--light-gradient);
   --current-overlay: var(--light-shadow-dark);
@@ -102,7 +102,7 @@ body.light-theme {
   --current-primary-lighter: var(--primary-lighter);
   --current-secondary: var(--secondary);
   --current-secondary-clr: var(--secondary-clr);
-  --current-hyper-red: var(--hyper-red);
+  --current-vintage-gold: var(--vintage-gold);
   --current-border-fade: var(--border-fade);
    --current-gradient: var(--light-gradient);
   --current-overlay: var(--shadow-dark); */
@@ -520,7 +520,7 @@ header.scrolled nav .nav-toggle .bar {
 }
 
 /* header.scrolled nav .nav-logo {
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
 } */
 .nav-logo {
   display: none;
@@ -637,7 +637,7 @@ nav ul:has(a:hover) a:not(:hover) {
 .book_now {
   font-size: 15px;
   text-transform: capitalize;
-  background: var(--current-hyper-red);
+  background: var(--current-vintage-gold);
   color: var(--secondary);
   width: 100%;
   max-width: 140px;
@@ -705,7 +705,7 @@ nav ul:has(a:hover) a:not(:hover) {
 
 .nav-menu .social-links-text a:hover {
   transform: translateY(-0.25rem);
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
 }
 
 .nav-menu .social-links-text a:active,
@@ -722,7 +722,7 @@ nav ul:has(a:hover) a:not(:hover) {
   width: 70px;
   height: 70px;
   border: 1px dashed currentColor;
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
   font-size: 16px;
   border-radius: 50%;
   display: grid;
@@ -747,8 +747,8 @@ nav ul:has(a:hover) a:not(:hover) {
   left: 20px;
   width: 50px;
   height: 50px;
-  border: 1px dashed var(--current-hyper-red);
-  color: var(--current-hyper-red);
+  border: 1px dashed var(--current-vintage-gold);
+  color: var(--current-vintage-gold);
   font-size: 16px;
   border-radius: 50%;
   display: grid;

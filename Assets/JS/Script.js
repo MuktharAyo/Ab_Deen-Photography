@@ -8,58 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Nav-toggle
-// document.addEventListener("DOMContentLoaded", () => {
-//   const $ = (id) => document.getElementById(id);
-//   const navbar = $("navbar"),
-//     navMenu = $("navMenu"),
-//     navLogo = $("navLogo"),
-//     toggleBtn = $("mobileMenuToggle");
-//   const isOpen = () => navMenu.classList.contains("active");
-//   const openMenu = () => {
-//     navMenu.classList.add("active");
-//     navLogo.classList.add("active");
-//     toggleBtn.classList.add("active");
-//     document.body.style.overflow = "hidden";
-//   };
-//   const closeMenu = () => {
-//     navMenu.classList.remove("active");
-//     navLogo.classList.remove("active");
-//     toggleBtn.classList.remove("active");
-//     document.body.style.overflow = "";
-//   };
-//   const scrollToHash = (hash) => {
-//     const el = document.querySelector(hash);
-//     if (!el) return;
-//     el.scrollIntoView({ behavior: "smooth" });
-//     el.tabIndex = -1;
-//     el.focus({ preventScroll: true });
-//     history.pushState(null, "", hash);
-//   };
-//   toggleBtn.addEventListener("click", () => {
-//     isOpen() ? closeMenu() : openMenu();
-//   });
-//   navMenu.addEventListener("click", (e) => {
-//     const link = e.target.closest("a");
-//     if (!link) return;
-//     const href = link.getAttribute("href");
-//     if (href?.startsWith("#") && document.querySelector(href)) {
-//       e.preventDefault();
-//       // close menu, then scroll after transition ends
-//       closeMenu();
-//       const dur =
-//         parseFloat(getComputedStyle(navMenu).transitionDuration) * 1000;
-//       setTimeout(() => scrollToHash(href), dur);
-//     } else if (isOpen()) {
-//       // non-anchor or external link: just close menu so default navigation proceeds
-//       closeMenu();
-//     }
-//   });
-//   const onScroll = () =>
-//     navbar.classList.toggle("scrolled", window.scrollY > 20);
-//   window.addEventListener("scroll", onScroll);
-//   onScroll();
-// });
-
 document.addEventListener("DOMContentLoaded", () => {
   const $ = (id) => document.getElementById(id);
 

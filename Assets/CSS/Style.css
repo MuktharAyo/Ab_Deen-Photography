@@ -134,7 +134,7 @@
 
 .intro h5 {
   font-size: 16px;
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
   margin-inline-start: 90px;
   position: relative;
 }
@@ -172,7 +172,7 @@
 }
 
 .intro .typing .inView {
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
   animation: show 12s steps(4) infinite;
   animation-delay: 5.8s !important;
 }
@@ -190,7 +190,7 @@
   height: 100%;
   left: 0;
   background: var(--current-primary);
-  border-left: 2px solid var(--current-hyper-red);
+  border-left: 2px solid var(--current-vintage-gold);
   animation: typing 3s steps(13) infinite;
   animation-delay: 5.8s !important;
 }
@@ -410,7 +410,7 @@
 }
 
 .featured-head span {
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
 }
 
 .featured-head p {
@@ -494,24 +494,24 @@
   margin: 50px auto 0;
   color: var(--current-secondary);
   border: 1px solid var(--current-border-fade);
-  border-radius: 30px;
+  border-radius: 8px;
   font-size: 18px;
   text-transform: capitalize;
   transition: all 0.5s;
 }
 
-.gallery_btn  svg path{
+.gallery_btn svg path {
   stroke: var(--current-secondary);
 }
 
 .bookSession_btn:hover,
 .gallery_btn:hover {
   color: var(--secondary);
-  background: var(--current-hyper-red);
-  border: 1px solid var(--current-hyper-red);
+  background: var(--current-vintage-gold);
+  border: 1px solid var(--current-vintage-gold);
 }
 
-.gallery_btn:hover svg path{
+.gallery_btn:hover svg path {
   stroke: var(--secondary);
 }
 
@@ -579,7 +579,7 @@
 
 #catalogue .vector-three {
   right: 0;
-  bottom: 0;
+  bottom: 24px;
 }
 
 .catalogue-section {
@@ -739,7 +739,7 @@
 
 .resume-head h5 {
   font-size: 16px;
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
 }
 
 .resume-head h1 {
@@ -877,7 +877,7 @@
 }
 
 .all-info .title span {
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
 }
 
 .all-info p {
@@ -900,7 +900,6 @@
 
 .all-info .list {
   padding: 20px;
-  max-height: 180px;
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -941,7 +940,7 @@
 
 .all-info .list:hover i,
 .list:hover h4 span {
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
 }
 
 .all-info .list .item {
@@ -1068,7 +1067,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--current-hyper-red);
+  background: var(--current-vintage-gold);
 }
 
 .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
@@ -1084,14 +1083,14 @@
 
 .swiper-buttons .swiper-btn {
   padding: 10px;
-  border: 1px solid var(--current-hyper-red);
+  border: 1px solid var(--current-vintage-gold);
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .swiper-btn:hover {
-  background: var(--current-hyper-red);
+  background: var(--current-vintage-gold);
 }
 
 .swiper-btn:active {
@@ -1211,7 +1210,7 @@
 }
 
 .contact-btn:hover {
-  background: var(--current-hyper-red);
+  background: var(--current-vintage-gold);
   color: var(--secondary);
 }
 
@@ -1255,7 +1254,7 @@ footer {
 
 .social-links-text a:hover {
   transform: translateY(-0.25rem);
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
 }
 
 .social-links-text a:active,
@@ -1276,5 +1275,5 @@ footer {
 
 .footer-section .link a:hover {
   text-decoration: underline;
-  color: var(--current-hyper-red);
+  color: var(--current-vintage-gold);
 }
