@@ -38,7 +38,7 @@ html {
   --primary-lighter: rgb(35, 35, 35);
   --primary-clr: rgba(0, 0, 0, 0.5);
   --secondary: rgb(234, 224, 200);
-  --secondary-clr: rgb(255, 255, 255);
+  --secondary-clr: rgb(234, 224, 200, 0.8);
   --vintage-gold: rgb(184, 115, 51);
 
   --border-fade: rgb(255, 255, 255, 0.4);
