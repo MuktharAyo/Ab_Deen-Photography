@@ -5,6 +5,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AB_DEEN Photography | Catalogue</title>
+  <script>
+    (function () {
+      try {
+        const theme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.classList.toggle('light-theme', theme === 'light');
+      } catch (_) { }
+    })();
+  </script>
   <!-- Font link -->
   <link href="https://fonts.googleapis.com/css?family=Coda:regular,800" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do:regular" rel="stylesheet" />
@@ -47,7 +55,7 @@
     <main>
       <!-- Navigation -->
       <nav class="navbar">
-        <a href="#home" class="nav-logo" id="navLogo">
+        <a href="Home.html" class="nav-logo" id="navLogo">
           <h1>AB<span>_DeenShotIt</span></h1>
           <!-- <img src="Assets/Images/rough.jpg" alt=""> -->
         </a>
@@ -117,10 +125,13 @@
 
 
             <div class="social-links-text">
-              <a href="https://www.instagram.com/ab_deenphotography?igsh=MTRwazZienp4bjY2OQ==" target="_blank">ig.</a>
-              <a href="https://www.tiktok.com/@ab_deenshotit?_t=ZM-8y4axwknn9y&_r=1" target="_blank">tt.</a>
-              <a href="https://www.facebook.com/share/18tZyCPtxZ/" target="_blank">fb.</a>
-              <a href="https://wa.me/2349057406848" target="_blank">wa.</a>
+              <a href="https://www.instagram.com/ab_deenphotography?igsh=MTRwazZienp4bjY2OQ==" target="_blank"><i
+                  class="ri-instagram-line"></i></a>
+              <a href="https://www.tiktok.com/@ab_deenshotit?_t=ZM-8y4axwknn9y&_r=1" target="_blank"><i
+                  class="ri-tiktok-line"></i></a>
+              <a href="https://www.facebook.com/share/18tZyCPtxZ/" target="_blank"><i
+                  class="ri-facebook-circle-fill"></i></a>
+              <a href="https://wa.me/2349057406848" target="_blank"><i class="ri-whatsapp-line"></i></a>
             </div>
           </div>
         </div>
@@ -206,13 +217,92 @@
       </div>
 
       <div class="catalog">
+        <!-- Item 26-->
+        <div class="gallery-item" data-category="studio" data-aos="fade-up" data-aos-duration="800">
+          <div class="photo btn-hv open-modal" data-modal="modal26">
+            <img src="Assets/Images/Catalogue/Studio/new/FAT_2989.jpg" alt="ganiya" loading="lazy" />
+            <div class="info">
+              <h2>ganiya | <br> studio</h2>
+            </div>
+          </div>
+        </div>
+        <div class="modal" id="modal26">
+          <div class="modal_content">
+            <div class="modal-header">
+              <div class="close-modal btn-hv">
+                <div class="close-arrow">
+                  <div class="arrow-line arrow-one"></div>
+                  <div class="arrow-line arrow-two"></div>
+                  <div class="arrow-tip arrow-top"></div>
+                  <div class="arrow-tip arrow-bottom"></div>
+                </div>
+                <span>back</span>
+              </div>
+            </div>
+
+            <div class="modal-body">
+              <div class="modal-img">
+                <img src="Assets/Images/Catalogue/Studio/new/FAT_2989.jpg" alt="ganiya" />
+                <div class="modal-details">
+                  <span class="client">ganiya | suleja</span>
+                  <div class="modal-info">
+                    <span class="date">2024</span>
+                    <div class="deliverables">
+                      <h6 class="modal-info_title">deliverables</h6>
+                      <span> main Photography</span>
+                      <span>photo retouch</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-grid">
+                <div class="grid-wrapper">
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_2999.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_2999.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3033.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3033.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_2989.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_2989.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3046.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3046.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_2997.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_2997.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3005.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3005.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3017.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3017.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3020.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3020.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3024.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3024.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3040.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3040.jpg" alt="ganiya" />
+                  </a>
+                  <a href="Assets/Images/Catalogue/Studio/new/FAT_2987.jpg" data-fancybox="modal26-gallery">
+                    <img src="Assets/Images/Catalogue/Studio/new/FAT_2987.jpg" alt="ganiya" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- yusuf & jemila 1-->
         <div class="gallery-item" data-category="event" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal1">
             <img src="Assets/Images/Catalogue/Events/Yusuf/photo_5_2025-06-28_23-00-17.jpg" alt="mr and mrs yusuf"
               loading="lazy" />
             <div class="info">
-              <h2>mr & mrs abdulsalam | wedding</h2>
+              <h2>mr & mrs yusuf | wedding</h2>
               <!-- <p>real love, real moments, forever in focus.</p> -->
             </div>
           </div>
@@ -238,7 +328,7 @@
                 <div class="modal-details">
                   <span class="client">mr & mrs Abdulsalam | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">june 28,&nbsp;2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
@@ -344,85 +434,6 @@
           </div>
         </div>
 
-        <!-- Item 26-->
-        <div class="gallery-item" data-category="studio" data-aos="fade-up" data-aos-duration="800">
-          <div class="photo btn-hv open-modal" data-modal="modal26">
-            <img src="Assets/Images/Catalogue/Studio/new/FAT_2989.jpg" alt="" loading="lazy" />
-            <div class="info">
-              <h2>faridah | <br> studio, traditional</h2>
-            </div>
-          </div>
-        </div>
-        <div class="modal" id="modal26">
-          <div class="modal_content">
-            <div class="modal-header">
-              <div class="close-modal btn-hv">
-                <div class="close-arrow">
-                  <div class="arrow-line arrow-one"></div>
-                  <div class="arrow-line arrow-two"></div>
-                  <div class="arrow-tip arrow-top"></div>
-                  <div class="arrow-tip arrow-bottom"></div>
-                </div>
-                <span>back</span>
-              </div>
-            </div>
-
-            <div class="modal-body">
-              <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Studio/new/FAT_2989.jpg" alt="" />
-                <div class="modal-details">
-                  <span class="client">faridah | suleja</span>
-                  <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
-                    <div class="deliverables">
-                      <h6 class="modal-info_title">deliverables</h6>
-                      <span> main Photography</span>
-                      <span>photo retouch</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-grid">
-                <div class="grid-wrapper">
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_2999.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_2999.jpg" alt="" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3033.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3033.jpg" alt="" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_2989.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_2989.jpg" alt="" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3046.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3046.jpg" alt="" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_2997.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_2997.jpg" alt="" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3005.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3005.jpg" alt="" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3017.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3017.jpg" alt="Video thumbnail" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3020.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3020.jpg" alt="Video thumbnail" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3024.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3024.jpg" alt="" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_3040.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_3040.jpg" alt="" />
-                  </a>
-                  <a href="Assets/Images/Catalogue/Studio/new/FAT_2987.jpg" data-fancybox="modal26-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/new/FAT_2987.jpg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!-- faridah 12-->
         <div class="gallery-item" data-category="studio" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal12">
@@ -449,11 +460,11 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_5_2025-06-24_14-40-48.jpg" alt="" />
+                <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_5_2025-06-24_14-40-48.jpg" alt="faridah" />
                 <div class="modal-details">
-                  <span class="client">faridah | suleja</span>
+                  <span class="client">faridah | abuja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
@@ -466,41 +477,39 @@
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_10_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_10_2025-06-24_14-40-48.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_10_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_3_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_3_2025-06-24_14-40-48.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_3_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_9_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_9_2025-06-24_14-40-48.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_9_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_8_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_8_2025-06-24_14-40-48.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_8_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_2_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_2_2025-06-24_14-40-48.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_2_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_7_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_7_2025-06-24_14-40-48.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_7_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_4_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_4_2025-06-24_14-40-48.jpg"
-                      alt="Video thumbnail" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_4_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_6_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_6_2025-06-24_14-40-48.jpg"
-                      alt="Video thumbnail" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_6_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Fashion/trad 2/photo_5_2025-06-24_14-40-48.jpg"
                     data-fancybox="modal12-gallery">
-                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_5_2025-06-24_14-40-48.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Fashion/trad 2/photo_5_2025-06-24_14-40-48.jpg" alt="faridah" />
                   </a>
                 </div>
               </div>
@@ -538,14 +547,15 @@
               <div class="modal-img">
                 <img
                   src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/photo_1_2025-06-27_23-56-06.jpg"
-                  alt="" />
+                  alt="mr & mrs sheriff" />
                 <div class="modal-details">
-                  <span class="client">mr & mrs sheriff | suleja</span>
+                  <span class="client">dr. & mrs sheriff | suleja</span>
                   <div class="modal-info">
                     <span class="date">june 28, 2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
+                      <span> Photo retouch</span>
                       <span>videography</span>
                       <span>video Editing</span>
                     </div>
@@ -558,146 +568,146 @@
                     data-fancybox="modal5-gallery" data-caption="White Wedding">
                     <img
                       src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/photo_1_2025-06-27_23-56-06.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0167.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0167.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0115.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0115.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0109.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0109.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0118.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0118.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0129.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0129.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0105.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0105.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0178.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0178.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0122.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0122.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/photo_2_2025-06-27_23-56-06.jpg"
                     data-fancybox="modal5-gallery">
                     <img
                       src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/photo_2_2025-06-27_23-56-06.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/photo_3_2025-06-27_23-56-06.jpg"
                     data-fancybox="modal5-gallery">
                     <img
                       src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/photo_3_2025-06-27_23-56-06.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
 
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0069.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0069.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0073.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0073.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0084.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_0084.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9304.jpg"
                     data-fancybox="modal5-gallery" data-caption="Traditional Wedding">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9304.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9301.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9301.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9322.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9322.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
 
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9364.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9364.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9655.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9655.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9349.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9349.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9342.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9342.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9651.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9651.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9337.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9337.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9357.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9357.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9335.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9335.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9649.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9649.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9637.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9637.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9641.jpg"
                     data-fancybox="modal5-gallery">
                     <img src="Assets/Images/Catalogue/Events/wedding (Dr sheriff wedds Maryam) recent/DSC_9641.jpg"
-                      alt="" />
+                      alt="mr & mrs sheriff" />
                   </a>
                 </div>
               </div>
@@ -733,14 +743,13 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Studio/gift/000A1000.jpg" alt="Gift" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">precious | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2023</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -748,25 +757,25 @@
               <div class="modal-grid">
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Studio/gift/000A0989.jpg" data-fancybox="modal7-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/gift/000A0989.jpg" alt="Gift" />
+                    <img src="Assets/Images/Catalogue/Studio/gift/000A0989.jpg" alt="precious" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/gift/000A1007.jpg" data-fancybox="modal7-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/gift/000A1007.jpg" alt="Gift" />
+                    <img src="Assets/Images/Catalogue/Studio/gift/000A1007.jpg" alt="precious" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/gift/000A0982.jpg" data-fancybox="modal7-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/gift/000A0982.jpg" alt="Gift" />
+                    <img src="Assets/Images/Catalogue/Studio/gift/000A0982.jpg" alt="precious" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/gift/000A0990.jpg" data-fancybox="modal7-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/gift/000A0990.jpg" alt="Gift" />
+                    <img src="Assets/Images/Catalogue/Studio/gift/000A0990.jpg" alt="precious" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/gift/000A1000.jpg" data-fancybox="modal7-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/gift/000A1000.jpg" alt="Gift" />
+                    <img src="Assets/Images/Catalogue/Studio/gift/000A1000.jpg" alt="precious" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/gift/000A0993.jpg" data-fancybox="modal7-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/gift/000A0993.jpg" alt="Gift" />
+                    <img src="Assets/Images/Catalogue/Studio/gift/000A0993.jpg" alt="precious" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/gift/000A1004.jpg" data-fancybox="modal7-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/gift/000A1004.jpg" alt="Gift" />
+                    <img src="Assets/Images/Catalogue/Studio/gift/000A1004.jpg" alt="precious" />
                   </a>
                 </div>
               </div>
@@ -777,7 +786,7 @@
         <!-- maimuna 3-->
         <div class="gallery-item" data-category="event" data-aos="fade-up" data-aos-duration="800">
           <div class="photo portrait btn-hv open-modal" data-modal="modal3">
-            <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4254.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4254.jpg" alt="maimuna" loading="lazy" />
             <div class="info">
               <h2>maimuna | <br> wedding, bride</h2>
 
@@ -800,7 +809,7 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4254.jpg" alt="" />
+                <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4254.jpg" alt="maimuna" />
                 <div class="modal-details">
                   <span class="client">maimuna | abuja</span>
                   <div class="modal-info">
@@ -818,37 +827,37 @@
               <div class="modal-grid">
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4263.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4263.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4263.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4268.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4268.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4268.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4274.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4274.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4274.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4276.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4276.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4276.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4278.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4278.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4278.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4254.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4254.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4254.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4320.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4320.jpg" alt="Video thumbnail" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4320.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4317.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4317.jpg" alt="Video thumbnail" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4317.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4312.jpg" data-fancybox="modal3-gallery">
                     <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4312.jpg" alt="" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4303.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4303.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4303.jpg" alt="maimuna" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4310.jpg" data-fancybox="modal3-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4310.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (maimuna)/FAT_4310.jpg" alt="maimuna" />
                   </a>
                 </div>
               </div>
@@ -888,12 +897,11 @@
                 <div class="modal-details">
                   <span class="client">Barrister Hadiza | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2023</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -934,7 +942,7 @@
         <!-- Item 17 -->
         <div class="gallery-item" data-category="event" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal17">
-            <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8203.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8203.jpg" alt="wedding" loading="lazy" />
             <div class="info">
               <h2> wedding</h2>
             </div>
@@ -958,14 +966,13 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8203.jpg" alt="" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">couple | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">may 4,&nbsp;2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span> Photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -973,49 +980,49 @@
               <div class="modal-grid">
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8189.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8189.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8189.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8199.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8199.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8199.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8205.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8205.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8205.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8217.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8217.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8217.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8221.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8221.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8221.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8203.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8203.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8203.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8194.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8194.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8194.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8195.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8195.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8195.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8226.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8226.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8226.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8214.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8214.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8214.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8178.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8178.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8178.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8183.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8183.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8183.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8192.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8192.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8192.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8182.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8182.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8182.jpg" alt="couple" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/wedding couples/DSC_8180.jpg" data-fancybox="modal17-gallery">
-                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8180.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/wedding couples/DSC_8180.jpg" alt="couple" />
                   </a>
                 </div>
               </div>
@@ -1026,7 +1033,8 @@
         <!-- shukurah 4-->
         <div class="gallery-item" data-category="studio" data-aos="fade-up" data-aos-duration="800">
           <div class="photo portrait btn-hv open-modal" data-modal="modal4">
-            <img src="Assets/Images/Catalogue/Studio/studio (shukra) recent/IMG_3446.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Studio/studio (shukra) recent/IMG_3446.jpg" alt="shukurah"
+              loading="lazy" />
             <div class="info">
               <h2>shukurah | studio</h2>
 
@@ -1051,14 +1059,13 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Studio/studio (shukra) recent/IMG_3446.jpg" alt="" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">shukurah | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">august,&nbsp;2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1112,7 +1119,7 @@
         <!-- baraka 2-->
         <div class="gallery-item" data-category="outdoor" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal2">
-            <img src="Assets/Images/Catalogue/Outdoors/outdoor (baraka)/DSC_9799.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Outdoors/outdoor (baraka)/DSC_9799.jpg" alt="baraka" loading="lazy" />
             <div class="info">
               <h2>baraka | outdoor</h2>
 
@@ -1139,10 +1146,11 @@
                 <div class="modal-details">
                   <span class="client">baraka | suleja</span>
                   <div class="modal-info">
-                    <span class="date">september 2<sup>nd</sup>, 2025</span>
+                    <span class="date">september 2,&nbsp;2024</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> outdoor Photography</span>
+                      <span> photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1201,16 +1209,15 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Events/bride (nafisa) recent/AZD_0708.jpg" alt="Gift" />
+                <img src="Assets/Images/Catalogue/Events/bride (nafisa) recent/AZD_0708.jpg" alt="nafisa (bride)" />
                 <div class="modal-details">
-                  <span class="client">nafisa (bride) | suleja</span>
+                  <span class="client">nafisa (bride) | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1258,9 +1265,9 @@
         <!-- sewa 6-->
         <div class="gallery-item" data-category="lifestyle" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal6">
-            <img src="Assets/Images/Catalogue/Outdoors/outdoor (sewa)/_DSC0419.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Outdoors/outdoor (sewa)/_DSC0419.jpg" alt="sewa" loading="lazy" />
             <div class="info">
-              <h2>sewa | outdoor, lifestyle</h2>
+              <h2>sewa | <br> outdoor, lifestyle</h2>
 
             </div>
           </div>
@@ -1281,16 +1288,15 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Outdoors/outdoor (sewa)/_DSC0419.jpg" alt="" />
+                <img src="Assets/Images/Catalogue/Outdoors/outdoor (sewa)/_DSC0419.jpg" alt="sewa" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">sewa | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1336,7 +1342,7 @@
         <!-- hauwa 10-->
         <div class="gallery-item" data-category="event" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal10">
-            <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0720.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0720.jpg" alt="hauwa" loading="lazy" />
             <div class="info">
               <h2>Hauwa | <br> Bride, wedding</h2>
 
@@ -1361,14 +1367,13 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0720.jpg" alt="" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">hauwa (bride) | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1376,28 +1381,28 @@
               <div class="modal-grid">
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0725.jpg" data-fancybox="modal10-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0725.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0725.jpg" alt="hauwa (bride)" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0727.jpg" data-fancybox="modal10-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0727.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0727.jpg" alt="hauwa (bride)" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0716.jpg" data-fancybox="modal10-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0716.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0716.jpg" alt="hauwa (bride)" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0733.jpg" data-fancybox="modal10-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0733.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0733.jpg" alt="hauwa (bride)" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0740.jpg" data-fancybox="modal10-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0740.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0740.jpg" alt="hauwa (bride)" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0862.jpg" data-fancybox="modal10-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0862.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0862.jpg" alt="hauwa (bride)" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0898.jpg" data-fancybox="modal10-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0898.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0898.jpg" alt="hauwa (bride)" />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0920.jpg" data-fancybox="modal10-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0920.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Events/bride (hauwa)/AZD_0920.jpg" alt="hauwa (bride)" />
                   </a>
                 </div>
               </div>
@@ -1410,7 +1415,7 @@
           <div class="photo btn-hv open-modal" data-modal="modal16">
             <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3576.jpg" alt="zahara (bride)" loading="lazy" />
             <div class="info">
-              <h2>zahara | bride, wedding</h2>
+              <h2>zahara | <br> bride, wedding</h2>
             </div>
           </div>
         </div>
@@ -1430,16 +1435,15 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3576.jpg" alt="Barrister Hadiza" />
+                <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3576.jpg" alt="zahara" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">zahara (bride) | abuja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2023</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1447,25 +1451,25 @@
               <div class="modal-grid">
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3539.jpg" data-fancybox="modal16-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3539.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3539.jpg" alt="zahara (bride) " />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3543.jpg" data-fancybox="modal16-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3543.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3543.jpg" alt="zahara (bride) " />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3574.jpg" data-fancybox="modal16-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3574.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3574.jpg" alt="zahara (bride) " />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3598.jpg" data-fancybox="modal16-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3598.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3598.jpg" alt="zahara (bride) " />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3576.jpg" data-fancybox="modal16-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3576.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3576.jpg" alt="zahara (bride) " />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3589.jpg" data-fancybox="modal16-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3589.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3589.jpg" alt="zahara (bride) " />
                   </a>
                   <a href="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3591.jpg" data-fancybox="modal16-gallery">
-                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3591.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Events/bride (Zahara)/IMG_3591.jpg" alt="zahara (bride) " />
                   </a>
                 </div>
               </div>
@@ -1478,7 +1482,7 @@
           <div class="photo btn-hv open-modal" data-modal="modal13">
             <img src="Assets/Images/Catalogue/Studio/traditional (shukra)/IMG_3334.jpg" alt="shukura" loading="lazy" />
             <div class="info">
-              <h2>shukurah | studio, traditional</h2>
+              <h2>shukurah | <br> studio, traditional</h2>
 
             </div>
           </div>
@@ -1501,14 +1505,13 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Studio/traditional (shukra)/IMG_3334.jpg" alt="shukura" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">shukurah | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">august,&nbsp;2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1560,7 +1563,8 @@
         <!-- nimmah 14 -->
         <div class="gallery-item" data-category="lifestyle" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal14">
-            <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0742.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0742.jpg" alt="adetutu & nimmah"
+              loading="lazy" />
             <div class="info">
               <h2>adetutu & nimmah | outdoor, lifestyle</h2>
             </div>
@@ -1584,14 +1588,13 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0742.jpg" alt="" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">adetutu & nimmah | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
-                      <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>main Photography</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1600,47 +1603,47 @@
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0714.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0714.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0714.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0719.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0719.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0719.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0722.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0722.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0722.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0722.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0722.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0722.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0735.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0735.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0735.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0736.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0736.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0736.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0742.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0742.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0742.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0762.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0762.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0762.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0788.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0788.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0788.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0804.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0804.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0804.jpg" alt="adetutu & nimmah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0818.jpg"
                     data-fancybox="modal14-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0818.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoors(nimat)/_DSC0818.jpg" alt="adetutu & nimmah" />
                   </a>
                 </div>
               </div>
@@ -1651,7 +1654,7 @@
         <!-- sekina 11-->
         <div class="gallery-item" data-category="outdoor" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal11">
-            <img src="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0049-Recovered.jpg" alt=""
+            <img src="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0049-Recovered.jpg" alt="sekinah"
               loading="lazy" />
             <div class="info">
               <h2>sekina | outdoor</h2>
@@ -1679,7 +1682,7 @@
                 <div class="modal-details">
                   <span class="client">sekinat | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> Outdoor Photography</span>
@@ -1693,32 +1696,32 @@
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0053-Recovered.jpg"
                     data-fancybox="modal11-gallery">
                     <img src="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0053-Recovered.jpg"
-                      alt="" />
+                      alt="sekinat" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0058-Recovered.jpg"
                     data-fancybox="modal11-gallery">
                     <img src="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0058-Recovered.jpg"
-                      alt="" />
+                      alt="sekinat" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0018-Recovered.jpg"
                     data-fancybox="modal11-gallery">
                     <img src="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0018-Recovered.jpg"
-                      alt="" />
+                      alt="sekinat" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0049-Recovered.jpg"
                     data-fancybox="modal11-gallery">
                     <img src="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0049-Recovered.jpg"
-                      alt="" />
+                      alt="sekinat" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0031-Recovered.jpg"
                     data-fancybox="modal11-gallery">
                     <img src="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0031-Recovered.jpg"
-                      alt="" />
+                      alt="sekinat" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0045-Recovered.jpg"
                     data-fancybox="modal11-gallery">
                     <img src="Assets/Images/Catalogue/Outdoors/outdoor (sekinat) recent/_DSC0045-Recovered.jpg"
-                      alt="" />
+                      alt="sekinat" />
                   </a>
 
                 </div>
@@ -1806,7 +1809,7 @@
         <!-- rukayah 18 -->
         <div class="gallery-item" data-category="studio" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal18">
-            <img src="Assets/Images/Catalogue/Studio/studio(ruki)/FAT_1019.jpg" alt="Gift" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Studio/studio(ruki)/FAT_1019.jpg" alt="rukayah" loading="lazy" />
             <div class="info">
               <h2>rukayah | studio</h2>
 
@@ -1829,16 +1832,15 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Studio/studio(ruki)/FAT_1019.jpg" alt="Gift" />
+                <img src="Assets/Images/Catalogue/Studio/studio(ruki)/FAT_1019.jpg" alt="rukayah" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">rukayah | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2023</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1898,16 +1900,15 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0277.jpg" alt="Barrister Hadiza" />
+                <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0277.jpg" alt="faridah" />
                 <div class="modal-details">
-                  <span class="client">faridah | suleja</span>
+                  <span class="client">faridah | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -1916,47 +1917,47 @@
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0245.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0245.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0245.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0249.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0249.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0249.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0252.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0252.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0252.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0300.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0300.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0300.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0269.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0269.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0269.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0261.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0261.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0261.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0273.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0273.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0273.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0277.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0277.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0277.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0291.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0291.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0291.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0322.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0322.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0322.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0307.jpg"
                     data-fancybox="modal19-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0307.jpg" alt="Barrister Hadiza" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (faridah)/_DSC0307.jpg" alt="faridah" />
                   </a>
                 </div>
               </div>
@@ -1967,7 +1968,7 @@
         <!-- khadija 20 -->
         <div class="gallery-item" data-category="outdoor" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal20">
-            <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1024.jpg" alt="adama" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1024.jpg" alt="khadijah" loading="lazy" />
             <div class="info">
               <h2>nana khadijat | outdoor</h2>
 
@@ -1990,14 +1991,15 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1024.jpg" alt="mr and mrs yusuf" />
+                <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1024.jpg" alt="khadijah" />
                 <div class="modal-details">
-                  <span class="client">adama | suleja</span>
+                  <span class="client">nana khadijah | minna</span>
                   <div class="modal-info">
-                    <span class="date">2024</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
-                      <span> studio Photography</span>
+                      <span> main Photography</span>
+                      <span> photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -2006,31 +2008,31 @@
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1018.jpg"
                     data-fancybox="modal20-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1018.jpg" alt="adama" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1018.jpg" alt="khadijah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1009.jpg"
                     data-fancybox="modal20-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1009.jpg" alt="adama" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1009.jpg" alt="khadijah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1024.jpg"
                     data-fancybox="modal20-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1024.jpg" alt="adama" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1024.jpg" alt="khadijah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_0996.jpg"
                     data-fancybox="modal20-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_0996.jpg" alt="adama" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_0996.jpg" alt="khadijah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1026.jpg"
                     data-fancybox="modal20-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1026.jpg" alt="adama" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1026.jpg" alt="khadijah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1042.jpg"
                     data-fancybox="modal20-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1042.jpg" alt="adama" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1042.jpg" alt="khadijah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1047.jpg"
                     data-fancybox="modal20-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1047.jpg" alt="adama" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (Nana)/AZD_1047.jpg" alt="khadijah" />
                   </a>
                 </div>
               </div>
@@ -2041,9 +2043,9 @@
         <!-- adetutu 21 -->
         <div class="gallery-item" data-category="lifestyle" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal21">
-            <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0183.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0183.jpg" alt="adetutu" loading="lazy" />
             <div class="info">
-              <h2>adetutu | outdoor, lifestyle</h2>
+              <h2>adetutu | <br> outdoor, lifestyle</h2>
 
             </div>
           </div>
@@ -2066,14 +2068,13 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0183.jpg" alt="" />
                 <div class="modal-details">
-                  <span class="client">faridah | minna</span>
+                  <span class="client">adetutu | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2023</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -2082,51 +2083,51 @@
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0181.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0181.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0181.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0188.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0188.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0188.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0208.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0208.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0208.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0204.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0204.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0204.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0190.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0190.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0190.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0199.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0199.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0199.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0170.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0170.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0170.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0174.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0174.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0174.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0169.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0169.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0169.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0183.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0183.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0183.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0197.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0197.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0197.jpg" alt="adetutu" />
                   </a>
                   <a href="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0171.jpg"
                     data-fancybox="modal21-gallery">
-                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0171.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Outdoors/outdoor (reedah)/_DSC0171.jpg" alt="adetutu" />
                   </a>
                 </div>
               </div>
@@ -2137,9 +2138,9 @@
         <!-- faridah 22 -->
         <div class="gallery-item" data-category="studio" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal22">
-            <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2168.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2168.jpg" alt="faridah" loading="lazy" />
             <div class="info">
-              <h2>faridah | studio, lifestyle</h2>
+              <h2>faridah | <br> studio, lifestyle</h2>
 
             </div>
           </div>
@@ -2162,12 +2163,12 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2168.jpg" alt="sekinat" />
                 <div class="modal-details">
-                  <span class="client">sekinat | minna</span>
+                  <span class="client">faridah | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2025</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
-                      <span> Outdoor Photography</span>
+                      <span> main Photography</span>
                       <span>photo retouch</span>
                     </div>
                   </div>
@@ -2177,43 +2178,43 @@
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2129.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2129.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2129.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2159.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2159.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2159.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2146.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2146.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2146.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2174.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2174.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2174.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2189.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2189.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2189.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2163.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2163.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2163.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2168.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2168.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2168.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2169.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2169.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2169.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2186.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2186.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2186.jpg" alt="faridah" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2176.jpg"
                     data-fancybox="modal22-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2176.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio-far-recent/FAT_2176.jpg" alt="faridah" />
                   </a>
                 </div>
               </div>
@@ -2224,10 +2225,9 @@
         <!-- abike 23 -->
         <div class="gallery-item" data-category="studio" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal23">
-            <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9823.jpg" alt="shukura" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9823.jpg" alt="abike" loading="lazy" />
             <div class="info">
               <h2>abike | studio</h2>
-
             </div>
           </div>
         </div>
@@ -2249,14 +2249,13 @@
               <div class="modal-img">
                 <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9823.jpg" alt="shukura" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">abike | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2023</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -2264,25 +2263,25 @@
               <div class="modal-grid">
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9790.jpg" data-fancybox="modal23-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9790.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9790.jpg" alt="abike" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9800.jpg" data-fancybox="modal23-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9800.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9800.jpg" alt="abike" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9823.jpg" data-fancybox="modal23-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9823.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9823.jpg" alt="abike" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9806.jpg" data-fancybox="modal23-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9806.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9806.jpg" alt="abike" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9813.jpg" data-fancybox="modal23-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9813.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9813.jpg" alt="abike" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9817.jpg" data-fancybox="modal23-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9817.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9817.jpg" alt="abike" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9821.jpg" data-fancybox="modal23-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9821.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio (abike)/FAT_9821.jpg" alt="abike" />
                   </a>
                 </div>
               </div>
@@ -2293,7 +2292,7 @@
         <!-- damilola 24 -->
         <div class="gallery-item" data-category="studio" data-aos="fade-up" data-aos-duration="800">
           <div class="photo btn-hv open-modal" data-modal="modal24">
-            <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0499.jpg" alt="" loading="lazy" />
+            <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0499.jpg" alt="damilola" loading="lazy" />
             <div class="info">
               <h2>damilola | studio</h2>
 
@@ -2316,16 +2315,15 @@
 
             <div class="modal-body">
               <div class="modal-img">
-                <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0499.jpg" alt="" />
+                <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0499.jpg" alt="damilola" />
                 <div class="modal-details">
-                  <span class="client">aisha | suleja</span>
+                  <span class="client">damilola | suleja</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2024</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
-                      <span>videography</span>
-                      <span>video Editing</span>
+                      <span>photo retouch</span>
                     </div>
                   </div>
                 </div>
@@ -2333,19 +2331,19 @@
               <div class="modal-grid">
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0459.jpg" data-fancybox="modal24-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0459.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0459.jpg" alt="damilola" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0488.jpg" data-fancybox="modal24-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0488.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0488.jpg" alt="damilola" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0499.jpg" data-fancybox="modal24-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0499.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0499.jpg" alt="damilola" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0479.jpg" data-fancybox="modal24-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0479.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0479.jpg" alt="damilola" />
                   </a>
                   <a href="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0482.jpg" data-fancybox="modal24-gallery">
-                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0482.jpg" alt="" />
+                    <img src="Assets/Images/Catalogue/Studio/studio(reedah)/FAT_0482.jpg" alt="damilola" />
                   </a>
                 </div>
               </div>
@@ -2358,8 +2356,8 @@
           <div class="photo btn-hv open-modal" data-modal="modal25">
             <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0300.jpg" alt="jean" loading="lazy" />
             <div class="info">
-              <h2>outdoor, lifestyle</h2>
-
+              <h2>jean carnival | <br>
+                outdoor, lifestyle</h2>
             </div>
           </div>
         </div>
@@ -2383,7 +2381,7 @@
                 <div class="modal-details">
                   <span class="client">jean carnival | minna</span>
                   <div class="modal-info">
-                    <span class="date">june 28, 2025</span>
+                    <span class="date">2023</span>
                     <div class="deliverables">
                       <h6 class="modal-info_title">deliverables</h6>
                       <span> main Photography</span>
@@ -2395,61 +2393,61 @@
               <div class="modal-grid">
                 <div class="grid-wrapper">
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0116.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0116.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0116.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0009.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0009.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0009.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0083.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0083.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0083.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0300.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0300.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0300.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0117.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0117.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0117.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0318.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0318.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0318.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0380.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0380.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0380.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0293.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0293.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0293.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0079.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0079.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0079.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0086.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0086.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0086.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0105.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0105.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0105.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0325.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0325.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0325.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0311.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0311.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0311.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0109.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0109.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0109.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0326.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0326.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0326.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0278.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0278.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0278.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0113.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0113.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0113.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0078.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0078.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0078.jpg" alt="jean carnival" />
                   </a>
                   <a href="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0316.jpg" data-fancybox="modal-gallery">
-                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0316.jpg" alt="nafisa(bride)" />
+                    <img src="Assets/Images/Catalogue/Lifestyle/jean car/_DSC0316.jpg" alt="jean carnival" />
                   </a>
                 </div>
               </div>
@@ -2683,10 +2681,13 @@
             <a href="https://github.com/MuktharAyo" target="_blank">MuktharAyo</a>
           </p>
           <div class="social-links-text" data-aos="fade-up" data-aos-offset="0">
-            <a href="https://www.instagram.com/ab_deenphotography?igsh=MTRwazZienp4bjY2OQ==" target="_blank">ig.</a>
-            <a href="https://www.tiktok.com/@ab_deenshotit?_t=ZM-8y4axwknn9y&_r=1" target="_blank">tt.</a>
-            <a href="https://www.facebook.com/share/18tZyCPtxZ/" target="_blank">fb.</a>
-            <a href="https://wa.me/2349057406848" target="_blank">wa.</a>
+            <a href="https://www.instagram.com/ab_deenphotography?igsh=MTRwazZienp4bjY2OQ==" target="_blank"><i
+                class="ri-instagram-line"></i></a>
+            <a href="https://www.tiktok.com/@ab_deenshotit?_t=ZM-8y4axwknn9y&_r=1" target="_blank"><i
+                class="ri-tiktok-line"></i></a>
+            <a href="https://www.facebook.com/share/18tZyCPtxZ/" target="_blank"><i
+                class="ri-facebook-circle-fill"></i></a>
+            <a href="https://wa.me/2349057406848" target="_blank"><i class="ri-whatsapp-line"></i></a>
           </div>
         </div>
       </main>

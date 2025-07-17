@@ -5,6 +5,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AB_DEEN Photography</title>
+  <script>
+    (function() {
+      try {
+        const theme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.classList.toggle('light-theme', theme === 'light');
+      } catch (_) {}
+    })();
+  </script>
   <!-- Font link -->
   <link href="https://fonts.googleapis.com/css?family=Coda:regular,800" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do:regular" rel="stylesheet" />
@@ -115,10 +123,13 @@
             </a>
 
             <div class="social-links-text">
-              <a href="https://www.instagram.com/ab_deenphotography?igsh=MTRwazZienp4bjY2OQ==" target="_blank">ig.</a>
-              <a href="https://www.tiktok.com/@ab_deenshotit?_t=ZM-8y4axwknn9y&_r=1" target="_blank">tt.</a>
-              <a href="https://www.facebook.com/share/18tZyCPtxZ/" target="_blank">fb.</a>
-              <a href="https://wa.me/2349057406848" target="_blank">wa.</a>
+              <a href="https://www.instagram.com/ab_deenphotography?igsh=MTRwazZienp4bjY2OQ==" target="_blank"><i
+                  class="ri-instagram-line"></i></a>
+              <a href="https://www.tiktok.com/@ab_deenshotit?_t=ZM-8y4axwknn9y&_r=1" target="_blank"><i
+                  class="ri-tiktok-line"></i></a>
+              <a href="https://www.facebook.com/share/18tZyCPtxZ/" target="_blank"><i
+                  class="ri-facebook-circle-fill"></i></a>
+              <a href="https://wa.me/2349057406848" target="_blank"><i class="ri-whatsapp-line"></i></a>
             </div>
           </div>
         </div>
@@ -265,9 +276,9 @@
         <div class="featured-contents">
           <div class="featured-left">
             <div class="featured item1 img-holder" data-aos="fade-up">
-              <a href="Assets/Images/Recent/photo_16_2025-06-28_23-00-17.jpg" data-fancybox="recent-work"
+              <a href="Assets/Images/Recent/photo_11_2025-06-28_23-00-17.jpg" data-fancybox="recent-work"
                 data-caption="mr and mrs yusuf">
-                <img src="Assets/Images/Recent/photo_16_2025-06-28_23-00-17.jpg" alt="mr and mrs yusuf"
+                <img src="Assets/Images/Recent/photo_11_2025-06-28_23-00-17.jpg" alt="mr and mrs yusuf"
                   loading="lazy" />
               </a>
               <div class="info">
@@ -343,7 +354,7 @@
               </div>
 
               <div class="card-content">
-                <h2 class="card-title">mr & mrs ....</h2>
+                <h2 class="card-title">couple</h2>
                 <p class="card-tag">event, wedding</p>
               </div>
             </div>
@@ -367,7 +378,7 @@
               </div>
 
               <div class="card-content">
-                <h2 class="card-title">nimat & faridah</h2>
+                <h2 class="card-title">nimat & adetutu</h2>
                 <p class="card-tag">outdoor, lifestyle</p>
               </div>
             </div>
@@ -400,7 +411,7 @@
           <div class="catalogue-item" data-aos="fade-up">
             <div class="catalogue-card">
               <div class="img-holder">
-                <img src="Assets/Images/Home-Gallery/Cooperate/FAT_2116.JPG" alt="barrister hadiza" loading="lazy" />
+                <img src="Assets/Images/Home-Gallery/Cooperate/FAT_2130.JPG" alt="barrister hadiza" loading="lazy" />
               </div>
 
               <div class="card-content">
@@ -815,7 +826,8 @@
                         <span>Photographer [Apprenticeship]</span>
                       </h4>
                       <p>
-                        Shadowed professional photographers in a studio setting, learning everything from camera settings to lighting and
+                        Shadowed professional photographers in a studio setting, learning everything from camera
+                        settings to lighting and
                         composition, getting hands‑on experience behind the
                         camera.
                       </p>
@@ -834,7 +846,7 @@
                         At Kennis, I moved into real client sessions and hands-on shooting.
                         I explored different styles, developed my editing flow, and gained real confidence.
                       </p>
-                      <h6>february 2021 - october 2022</h6>
+                      <h6>february 2021 - august 2022</h6>
                     </div>
                   </div>
 
@@ -886,144 +898,89 @@
             <div class="swiper-wrapper">
               <div class="testimonial testimonial-card1 swiper-slide">
                 <div class="card-content">
-                  <div class="profile">
-                    <div class="profile-img">
-                      <img src="Assets/Images/shedrack-salami-yjwehHiMGpg-unsplash.jpg" alt="" />
-                    </div>
-                    <div class="profile-desc">
-                      <span>jane doe</span>
-                      <p>makeup-artist</p>
-                    </div>
-                  </div>
-                  <div class="quote">
-                    <p>
-                      <q>
-                        Lorem ipsum aut dolor sit amet consectetur adipisicing
-                        elit. Harum molestias blanditiis esse pariatur quod
-                        laborum perspiciatis non error eum. Quisquam fugiat
-                        nobis illum laboriosam labore nisi, rerum aliquid.
-                      </q>
-                    </p>
+                  <p class="quote">
+                    <q>
+                      He’s calm, focused, and really listens. You can tell he cares about getting the best out of
+                      every shot.
+                    </q>
+                  </p>
+                  <div class="profile-desc">
+                    <span>rukayah</span>
+                    <p>makeup - artist</p>
                   </div>
                 </div>
               </div>
 
               <div class="testimonial testimonial-card2 swiper-slide">
                 <div class="card-content">
-                  <div class="profile">
-                    <div class="profile-img">
-                      <img src="Assets/Images/shedrack-salami-yjwehHiMGpg-unsplash.jpg" alt="" />
-                    </div>
-                    <div class="profile-desc">
-                      <span>jane doe</span>
-                      <p>makeup-artist</p>
-                    </div>
-                  </div>
-                  <div class="quote">
-                    <p>
-                      <q>
-                        Lorem ipsum aut dolor sit amet consectetur adipisicing
-                        elit. Harum molestias blanditiis esse pariatur quod
-                        laborum perspiciatis non error eum. Quisquam fugiat
-                        nobis illum laboriosam labore nisi, rerum aliquid.
-                      </q>
-                    </p>
+                  <p class="quote">
+                    <q>
+                      Even when things weren’t going as planned, he stayed composed and delivered beautiful work.
+                      Honestly one of the most dedicated photographers I’ve worked with.
+                    </q>
+                  </p>
+                  <div class="profile-desc">
+                    <span>baraka</span>
+                    <p>model</p>
                   </div>
                 </div>
               </div>
 
               <div class="testimonial testimonial-card3 swiper-slide">
                 <div class="card-content">
-                  <div class="profile">
-                    <div class="profile-img">
-                      <img src="Assets/Images/shedrack-salami-yjwehHiMGpg-unsplash.jpg" alt="" />
-                    </div>
-                    <div class="profile-desc">
-                      <span>jane doe</span>
-                      <p>makeup-artist</p>
-                    </div>
-                  </div>
-                  <div class="quote">
-                    <p>
-                      <q>
-                        Lorem ipsum aut dolor sit amet consectetur adipisicing
-                        elit. Harum molestias blanditiis esse pariatur quod
-                        laborum perspiciatis non error eum. Quisquam fugiat
-                        nobis illum laboriosam labore nisi, rerum aliquid.
-                      </q>
-                    </p>
+                  <p class="quote">
+                    <q>
+                      He didn’t just snap pictures, he caught real moments. We’re really happy with our wedding
+                      photos.
+                    </q>
+                  </p>
+                  <div class="profile-desc">
+                    <span>yusuf & jemila</span>
+                    <p>client</p>
                   </div>
                 </div>
               </div>
 
               <div class="testimonial testimonial-card4 swiper-slide">
                 <div class="card-content">
-                  <div class="profile">
-                    <div class="profile-img">
-                      <img src="Assets/Images/shedrack-salami-yjwehHiMGpg-unsplash.jpg" alt="" />
-                    </div>
-                    <div class="profile-desc">
-                      <span>jane doe</span>
-                      <p>makeup-artist</p>
-                    </div>
-                  </div>
-                  <div class="quote">
-                    <p>
-                      <q>
-                        Lorem ipsum aut dolor sit amet consectetur adipisicing
-                        elit. Harum molestias blanditiis esse pariatur quod
-                        laborum perspiciatis non error eum. Quisquam fugiat
-                        nobis illum laboriosam labore nisi, rerum aliquid.
-                      </q>
-                    </p>
+                  <p class="quote">
+                    <q>
+                      He listens, gives space for ideas, and always shows up with good energy.
+                    </q>
+                  </p>
+                  <div class="profile-desc">
+                    <span>fathaj</span>
+                    <p>photographer</p>
                   </div>
                 </div>
               </div>
 
               <div class="testimonial testimonial-card5 swiper-slide">
                 <div class="card-content">
-                  <div class="profile">
-                    <div class="profile-img">
-                      <img src="Assets/Images/shedrack-salami-yjwehHiMGpg-unsplash.jpg" alt="" />
-                    </div>
-                    <div class="profile-desc">
-                      <span>jane doe</span>
-                      <p>makeup-artist</p>
-                    </div>
-                  </div>
-                  <div class="quote">
-                    <p>
-                      <q>
-                        Lorem ipsum aut dolor sit amet consectetur adipisicing
-                        elit. Harum molestias blanditiis esse pariatur quod
-                        laborum perspiciatis non error eum. Quisquam fugiat
-                        nobis illum laboriosam labore nisi, rerum aliquid.
-                      </q>
-                    </p>
+                  <p class="quote">
+                    <q>
+                      He delivered the pictures earlier than I expected. No stress, no chasing—just straight to the
+                      point.&nbsp; Agba photgrapher indeed
+                    </q>
+                  </p>
+                  <div class="profile-desc">
+                    <span>sheriff & mariam</span>
+                    <p>client</p>
                   </div>
                 </div>
               </div>
 
               <div class="testimonial testimonial-card6 swiper-slide">
                 <div class="card-content">
-                  <div class="profile">
-                    <div class="profile-img">
-                      <img src="Assets/Images/shedrack-salami-yjwehHiMGpg-unsplash.jpg" alt="" />
-                    </div>
-                    <div class="profile-desc">
-                      <span>jane doe</span>
-                      <p>makeup-artist</p>
-                    </div>
-                  </div>
-                  <div class="quote">
-                    <p>
-                      <q>
-                        Lorem ipsum aut dolor sit amet consectetur adipisicing
-                        elit. Harum molestias blanditiis esse pariatur quod
-                        laborum perspiciatis non error eum. Quisquam fugiat
-                        nobis illum laboriosam labore nisi, rerum aliquid.
-                      </q>
-                    </p>
+                  <p class="quote">
+                    <q>
+                      He might not get it perfect every time, but he gives his best.&nbsp;And honestly, that’s more than
+                      enough.
+                    </q>
+                  </p>
+                  <div class="profile-desc">
+                    <span>adama</span>
+                    <p>client</p>
                   </div>
                 </div>
               </div>
@@ -1085,10 +1042,13 @@
             <a href="https://github.com/MuktharAyo" target="_blank">MuktharAyo</a>
           </p>
           <div class="social-links-text" data-aos="fade-up" data-aos-offset="0">
-            <a href="https://www.instagram.com/ab_deenphotography?igsh=MTRwazZienp4bjY2OQ==" target="_blank">ig.</a>
-            <a href="https://www.tiktok.com/@ab_deenshotit?_t=ZM-8y4axwknn9y&_r=1" target="_blank">tt.</a>
-            <a href="https://www.facebook.com/share/18tZyCPtxZ/" target="_blank">fb.</a>
-            <a href="https://wa.me/2349057406848" target="_blank">wa.</a>
+            <a href="https://www.instagram.com/ab_deenphotography?igsh=MTRwazZienp4bjY2OQ==" target="_blank"><i
+                class="ri-instagram-line"></i></a>
+            <a href="https://www.tiktok.com/@ab_deenshotit?_t=ZM-8y4axwknn9y&_r=1" target="_blank"><i
+                class="ri-tiktok-line"></i></a>
+            <a href="https://www.facebook.com/share/18tZyCPtxZ/" target="_blank"><i
+                class="ri-facebook-circle-fill"></i></a>
+            <a href="https://wa.me/2349057406848" target="_blank"><i class="ri-whatsapp-line"></i></a>
           </div>
         </div>
       </main>

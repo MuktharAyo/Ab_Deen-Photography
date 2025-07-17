@@ -594,17 +594,8 @@
     font-size: 32px;
   }
 
-  .profile .profile-img {
-    width: 60px;
-    height: 60px;
-  }
-
   .swiper-buttons {
     display: none;
-  }
-
-  .profile-desc span {
-    font-size: 20px;
   }
 }
 
@@ -662,10 +653,6 @@
   }
 
   @media (max-width: 480px) {
-    .social-links-text a {
-      font-size: 18px;
-    }
-
     .footer-logo span {
       font-size: 16px;
     }
@@ -888,62 +875,3 @@
     }
   }
 }
-
-/* :root {
-  --primary: rgb(18, 18, 18);
-  --primary-light: rgb(23, 23, 23);
-  --primary-lighter: rgb(35, 35, 35);
-  --secondary: rgb(255, 255, 255);
-  --secondary-clr: rgb(255, 255, 255, 0.7);
-  --hyper-red: rgb(225, 25, 25);
-
-  --border-fade: rgb(255, 255, 255, 0.4);
-  --gradient: linear-gradient(var(--primary) 25%, rgba(0, 0, 0, 0.6) 80%);
-  --gradient-dark: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-  --shadow-dark: rgb(0, 0, 0, 0.8);
-  --shadow-light: rgb(0, 0, 0, 0.5); */
-
-/* Light Theme Colors (Complementary) */
-/* --light-primary: rgb(245, 245, 245);
-  --light-primary-light: rgb(232, 232, 232);
-  --light-primary-lighter: rgb(220, 220, 220);
-  --light-secondary: rgb(18, 18, 18);
-  --light-secondary-clr: rgba(18, 18, 18, 0.7); */
-/* --light-hyper-red: rgb(211, 47, 47); */
-/* --light-hyper-red: rgb(225, 25, 25);
-
-  --light-border-fade: rgba(0, 0, 0, 0.4);
-  --light-gradiant: linear-gradient(
-    rgb(245, 245, 245) 25%,
-    rgba(255, 255, 255, 0.6) 80%
-  );
-  --light-gradient-dark: linear-gradient(
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.3)
-  );
-  --light-shadow-dark: rgba(0, 0, 0, 0.1);
-  --light-shadow-light: rgba(0, 0, 0, 0.05); */
-/* --light-overlay: rgba(255, 255, 255, 0.7); */
-
-/* Current Theme Variables */
-/* --current-primary: var(--primary);
-  --current-primary-light: var(--primary-light);
-  --current-primary-lighter: var(--primary-lighter);
-  --current-secondary: var(--secondary);
-  --current-secondary-clr: var(--secondary-clr);
-  --current-hyper-red: var(--hyper-red);
-  --current-border-fade: var(--border-fade);
-  --current-overlay: var(--shadow-dark);
-} */
-
-/* Light Theme */
-/* body.light-theme {
-  --current-primary: var(--light-primary);
-  --current-primary-light: var(--light-primary-light);
-  --current-primary-lighter: var(--light-primary-lighter);
-  --current-secondary: var(--light-secondary);
-  --current-secondary-clr: var(--light-secondary-clr);
-  --current-hyper-red: var(--light-hyper-red);
-  --current-border-fade: var(--light-border-fade);
-  --current-overlay: var(--light-shadow-dark);
-} */

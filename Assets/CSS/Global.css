@@ -61,8 +61,6 @@ html {
       rgba(234, 224, 200) 80%);
   --light-gradient-dark: linear-gradient(rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.3));
-  /* --light-shadow-dark: rgba(0, 0, 0, 0.1);
-  --light-shadow-light: rgba(0, 0, 0, 0.05); */
 
   /* Current Theme Variables */
   --current-primary: var(--primary);
@@ -96,16 +94,6 @@ body.light-theme {
   --current-border-fade: var(--light-border-fade);
   --current-gradient: var(--light-gradient);
   --current-overlay: var(--light-shadow-dark);
-  /* 
-  --current-primary: var(--primary);
-  --current-primary-light: var(--primary-light);
-  --current-primary-lighter: var(--primary-lighter);
-  --current-secondary: var(--secondary);
-  --current-secondary-clr: var(--secondary-clr);
-  --current-vintage-gold: var(--vintage-gold);
-  --current-border-fade: var(--border-fade);
-   --current-gradient: var(--light-gradient);
-  --current-overlay: var(--shadow-dark); */
 }
 
 /* RECOLETA FONT */
@@ -505,7 +493,6 @@ header {
 }
 
 header.scrolled {
-  /* background: rgb(18, 18, 18, 0.8); */
   background: var(--current-primary-clr);
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
@@ -519,9 +506,6 @@ header.scrolled nav .nav-toggle .bar {
   background-color: var(--current-secondary);
 }
 
-/* header.scrolled nav .nav-logo {
-  color: var(--current-vintage-gold);
-} */
 .nav-logo {
   display: none;
 }
@@ -697,7 +681,6 @@ nav ul:has(a:hover) a:not(:hover) {
 }
 
 .nav-menu .social-links-text a {
-  font-size: 20px;
   color: var(--current-secondary);
   text-transform: uppercase;
   transition: all 0.4s;
