@@ -725,11 +725,8 @@
   }
 
   @media (max-width: 768px) {
-    /* .catalog-head {
-      padding-block: 50px;
-    } */
-
     .catalog {
+      /* grid-template-columns: repeat(2, 1fr); */
       gap: 6px;
     }
 
