@@ -67,7 +67,7 @@
     background: var(--current-primary);
     flex-direction: column;
     padding-block: 4rem;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     /* problem */
     transition: left 0.5s ease-out;
   }
