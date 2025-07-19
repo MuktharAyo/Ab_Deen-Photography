@@ -171,7 +171,7 @@
     }
 
     .nav-logo.active {
-      transform: translateX(10px) scale(1.2);
+      transform: translateX(17px) scale(1.2);
     }
 
     nav ul {
