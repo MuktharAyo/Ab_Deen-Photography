@@ -97,8 +97,8 @@
 
 .scroll_btn svg {
   animation: scrollSvg 1s linear infinite alternate;
-  width: 44px;
-  height: 35px;
+  width: 36px;
+  height: 24px;
 }
 
 @keyframes scrollSvg {
