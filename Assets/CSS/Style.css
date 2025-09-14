@@ -1055,7 +1055,10 @@
 }
 
 .swiper-buttons .swiper-btn {
-  padding: 10px;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-content: center;
   border: 1px solid var(--current-vintage-gold);
   border-radius: 50%;
   cursor: pointer;
