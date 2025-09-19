@@ -435,15 +435,19 @@
   color: var(--current-secondary) !important;
 }
 
-.fancybox__toolbar {
+.fancybox__toolbar,
+.fancybox__footer {
   text-shadow: none !important;
   color: var(--current-secondary) !important;
   background: var(--current-primary-light) !important;
 }
 
-.fancybox__footer {
-  display: none !important;
-}
+/* .fancybox__track,
+.fancybox__slide,
+.fancybox__content,
+.f-thumbs__track {
+  will-change: transform, opacity !important;
+} */
 
 .fancybox-custom-arrow {
   width: 50px;

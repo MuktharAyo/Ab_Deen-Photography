@@ -865,6 +865,10 @@
       margin: 0;
       font-size: 15px;
     }
+
+    .fancybox__footer {
+      display: none !important;
+    }
   }
 
   @media (max-width: 450px) {
