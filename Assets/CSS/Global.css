@@ -7,7 +7,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-block-start: 2rem;
+  scroll-padding-block-start: 1.5rem;
 }
 
 ::-webkit-scrollbar {
