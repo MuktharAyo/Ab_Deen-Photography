@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Event listeners
   toggleBtn.addEventListener("click", () =>
-    isMenuOpen() ? closeMenu() : openMenu()
+    isMenuOpen() ? closeMenu() : openMenu(),
   );
 
   navMenu.addEventListener("click", (e) => {
@@ -83,11 +83,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   window.addEventListener("scroll", () =>
-    navbar.classList.toggle("scrolled", window.scrollY > 20)
+    navbar.classList.toggle("scrolled", window.scrollY > 20),
   );
 
   themeToggle.addEventListener("click", () =>
-    applyTheme(body.classList.contains("light-theme") ? "dark" : "light")
+    applyTheme(body.classList.contains("light-theme") ? "dark" : "light"),
   );
 });
 
@@ -130,46 +130,51 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// New CUSTOM CURSOR
 // CUSTOM CURSOR
 const cursor = document.querySelector("[data-cursor]");
-const anchorElements = document.querySelectorAll("a");
-const buttons = document.querySelectorAll(".btn-hv");
 
-// change cursorElement position based on cursor move
-document.body.addEventListener("mousemove", function (event) {
-  setTimeout(function () {
-    cursor.style.top = `${event.clientY}px`;
-    cursor.style.left = `${event.clientX}px`;
-  }, 100);
-});
+if (cursor) {
+  document.body.addEventListener("mousemove", function (event) {
+    setTimeout(function () {
+      cursor.style.top = `${event.clientY}px`;
+      cursor.style.left = `${event.clientX}px`;
+    }, 100);
+  });
 
-// add cursor hoverd class
-const hoverActive = function () {
-  cursor.classList.add("hovered");
-};
+  const hoverActive = function () {
+    cursor.classList.add("hovered");
+  };
 
-// remove cursor hovered class
-const hoverDeactive = function () {
-  cursor.classList.remove("hovered");
-};
+  const hoverDeactive = function () {
+    cursor.classList.remove("hovered");
+  };
 
-// add hover effect on cursor, when hover on any button or hyperlink
-anchorElements.forEach((anchor) => {
-  anchor.addEventListener("mouseenter", hoverActive);
-  anchor.addEventListener("mouseleave", hoverDeactive);
-});
+  // Works for existing and dynamically generated anchors/buttons
+  document.addEventListener("mouseover", function (event) {
+    if (event.target.closest("a, .btn-hv")) {
+      hoverActive();
+    }
 
-buttons.forEach((button) => {
-  button.addEventListener("mouseenter", hoverActive);
-  button.addEventListener("mouseleave", hoverDeactive);
-});
+    if (event.target.closest("body")) {
+      cursor.classList.remove("disabled");
+    }
+  });
 
-// add disabled class on cursorElement, when mouse out of body
-document.body.addEventListener("mouseout", function () {
-  cursor.classList.add("disabled");
-});
+  document.addEventListener("mouseout", function (event) {
+    if (event.target.closest("a, .btn-hv")) {
+      hoverDeactive();
+    }
+  });
 
-// remove diabled class on cursorElement, when mouse in the body
-document.body.addEventListener("mouseover", function () {
-  cursor.classList.remove("disabled");
-});
+  document.body.addEventListener("mouseout", function (event) {
+    // only disable when leaving the page area
+    if (!event.relatedTarget) {
+      cursor.classList.add("disabled");
+    }
+  });
+
+  document.body.addEventListener("mouseover", function () {
+    cursor.classList.remove("disabled");
+  });
+}
