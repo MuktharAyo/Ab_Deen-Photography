@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const createModal = (item) => {
     const galleryHTML = item.gallery
       .map(
-        (img) => `
+        (img ) => `
           <a href="${escapeHTML(img)}" data-fancybox="${escapeHTML(item.id)}-gallery">
             <img src="${escapeHTML(img)}" alt="${escapeHTML(item.title)}" loading="lazy" />
           </a>
